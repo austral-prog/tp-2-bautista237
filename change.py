@@ -13,7 +13,5 @@ def change():
     pesos_entero = int(pesos)
     print(pesos_entero)
     print("Centavos:")
-    Centavos = money - expense
-    Centavos_entero = float(Centavos)
-    Centavos_entero == 25
-    print(Centavos_entero)
+    centavos=((money - expense)%1)*100
+    print(centavos)
