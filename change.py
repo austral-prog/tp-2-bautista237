@@ -1,8 +1,8 @@
 def change():
     expense = 23.75
     money = 100
-    print ("vuelto")
-    print ("pesos")
+    print ('Vuelto')
+    print ('Pesos:')
     print ((money - expense) // 1)
-    print ("centavos")
+    print ('Centavos')
     print ((money-expense)%1)
