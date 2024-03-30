@@ -5,4 +5,4 @@ def ada():
     print(name.lower())
     print(name.title())
     print(name.upper())
-    print(name.lower())
+    print(f"\t{name.lower()})
