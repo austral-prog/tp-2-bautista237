@@ -11,5 +11,5 @@ def change():
     print(f"{money}")
 
     print("\nVuelto")
-    print(f"Centavos:")
+    print(f"{pesos}")
     print(f"{centavos}")
