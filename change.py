@@ -12,5 +12,5 @@ def change():
     pesos = money - expense
     pesos_entero = int(pesos)
     print(pesos_entero)
-    print("Centavos")
+    print("Centavos:")
     print(f"{(money-expense)%1}")
