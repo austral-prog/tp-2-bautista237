@@ -3,8 +3,8 @@ def change():
     money = 100
     gasto=input("Ingresar:")
     Ingresar:23.75
-    recibido=input("Dinero recibido")
-    Dinero recibido:100
+    recibido=input("Dinero")
+    Dinero:100
     print ('Vuelto')
     print ('Pesos:')
     print ((money - expense) // 1)
