@@ -9,6 +9,8 @@ def change():
     print(f"{recibido}")
     print(f"\nVuelto")
     print(f"\nPesos:")
-    print(f"int{(money - expense) // 1}")
+    pesos = money - expense
+    pesos_entero = int(pesos)
+    print(pesos_entero)
     print("Centavos")
     print(f"{(money-expense)%1}")
