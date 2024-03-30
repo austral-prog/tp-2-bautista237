@@ -1,5 +1,8 @@
-def earth():
-  x = "Bangladesh"
-  y = "Barbados"
-  print(f"The result of X comes first in the dictionary than Y is {x < y} / {y < x}")
-  print(f"The result of Y comes first in the dictionary than X is {x < y} / {y < x}")
+def change():
+  expense = 23.75
+  money = 100
+  print ("vuelto")
+  print ("pesos")
+  print ((money - expense) // 1)
+  print ("centavos")
+  print ((money-expense)%1)
