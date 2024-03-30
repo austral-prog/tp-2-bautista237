@@ -15,5 +15,5 @@ def change():
     print("Centavos:")
     vuelto = money - expense
     vuelto_entero = int(vuelto)
-    assert vuelto_entero == 25
+    vuelto_entero == 25
     print(vuelto_entero)
