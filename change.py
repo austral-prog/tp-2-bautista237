@@ -11,4 +11,4 @@ def change():
     print(f"\nPesos:")
     print(f"{(money - expense) // 1}")
     print("Centavos")
-    print(f"{money-24}")
+    print(f"int{money-expense}")
