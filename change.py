@@ -1,14 +1,14 @@
 def change():
     expense = 23.75
     money = 100
-    vuelto = money - expense
-    pesos=(money - expense) // 1
-    centavos=(money-expense)%1
     print("Ingresar gasto:")
-    print(f"{expense}")
-
+    gasto=23.75
+    print(f"{gasto}")
     print("Dinero recibido")
-    print(f"{money}")
-
-    print("\nVuelto")
-    print("")
+    recibido=100
+    print(f"{recibido}")
+    print(f"\n vuelto")
+    print(f"\n Pesos")
+    print(f"{(money - expense) // 1}")
+    print("Centavos")
+    print(f"{(money-expense)%1}")
