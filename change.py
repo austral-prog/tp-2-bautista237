@@ -14,4 +14,5 @@ def change():
     print(pesos_entero)
     print("Centavos:")
     centavos=((money - expense)%1)*100
-    print(centavos)
+    centavos_completo=int(centavos)
+    print(centavos_completo)
