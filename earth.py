@@ -1,5 +1,5 @@
 def earth():
     X = "Bangladesh"
     Y = "Barbados"
-    print(f"El resultado de {X} viene primero en el diccionario que {Y} es {X < Y}")
-    print(f"El resultado de {Y} viene primero en el diccionario que {X} es {Y < X}")
+    print(f"The result of {X} comes first in the dictionary than {Y} is {X < Y}")
+    print(f"The result of {Y} comes first in the dictionary than {X} is {Y < X}")
